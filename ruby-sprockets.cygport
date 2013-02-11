@@ -1,0 +1,9 @@
+inherit rubygem
+
+NAME="ruby-sprockets"
+VERSION=2.2.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby sprockets extension"
+DESCRIPTION="Sprockets is a Rack-based asset packaging system that concatenates
+and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS."
