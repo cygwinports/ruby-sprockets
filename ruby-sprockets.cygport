@@ -1,9 +1,15 @@
 inherit rubygem
 
 NAME="ruby-sprockets"
-VERSION=2.2.2.backport2
+VERSION=2.12.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby sprockets extension"
 DESCRIPTION="Sprockets is a Rack-based asset packaging system that concatenates
 and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_sprockets_CONTENTS="usr/bin/sprockets ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_sprockets_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
