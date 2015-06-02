@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-sprockets"
-VERSION=2.11.3
+VERSION=3.1.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby sprockets extension"
